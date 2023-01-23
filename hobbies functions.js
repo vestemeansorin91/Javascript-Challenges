@@ -6,7 +6,7 @@ function createHobbies (ceva) {
     hobbies.push(ceva)
     console.log(hobbies)
 }
-*/
+
 
 let hobbies = ["basket", "ceva", "volei"];
 
@@ -21,4 +21,17 @@ function updateHobbies(hobby, newHobby){
 }
 
 console.log(hobbies);
+*/
 
+let hobbies = ["basket", "fotbal", "handbal"];
+
+deleteHobbies("fotbal");
+
+function deleteHobbies(hobby){
+    for(let i = 0; i < hobbies.length; i++){
+        if(hobbies[i] === hobby){
+            hobbies.splice(i,1);
+        }
+    }
+}
+console.log(hobbies)
