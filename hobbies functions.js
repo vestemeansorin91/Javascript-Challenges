@@ -37,8 +37,6 @@ function deleteHobbies(hobby){
     }
 }
 console.log(hobbies)
-*/
-
 
 let hobbies = ["basket", "fotbal", "alergat"];
 
@@ -46,4 +44,18 @@ showHobbies()
 
 function showHobbies(){
     console.log("Am urmatoarele hobiuri: " + hobbies + ".")
+}
+
+*/
+
+let hobbies = ["basket", "fotbal", "alergat"];
+
+countHobbies()
+
+function countHobbies(){
+    let counter = 0;
+    for(let i = 0; i< hobbies.length; i++){
+        counter++
+    }
+    console.log("Am "+ counter + " hobbiuri.")
 }
