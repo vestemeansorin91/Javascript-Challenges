@@ -1,4 +1,5 @@
 /*
+------------------------------------------------------
 createHobbies("alergat")
 
 function createHobbies (ceva) {
@@ -6,7 +7,7 @@ function createHobbies (ceva) {
     hobbies.push(ceva)
     console.log(hobbies)
 }
-
+------------------------------------------------------
 
 let hobbies = ["basket", "ceva", "volei"];
 
@@ -21,7 +22,8 @@ function updateHobbies(hobby, newHobby){
 }
 
 console.log(hobbies);
-*/
+
+------------------------------------------------------
 
 let hobbies = ["basket", "fotbal", "handbal"];
 
@@ -35,3 +37,13 @@ function deleteHobbies(hobby){
     }
 }
 console.log(hobbies)
+*/
+
+
+let hobbies = ["basket", "fotbal", "alergat"];
+
+showHobbies()
+
+function showHobbies(){
+    console.log("Am urmatoarele hobiuri: " + hobbies + ".")
+}
